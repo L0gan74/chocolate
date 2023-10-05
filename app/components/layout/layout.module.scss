@@ -1,0 +1,31 @@
+.header {
+  padding-bottom: 34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1136px;
+  margin: 0 auto;
+  padding-top: 24px;
+  .right {
+    width: 735px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .nav {
+      width: 532px;
+      display: flex;
+      justify-content: space-between;
+      a {
+        color: #111;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: -0.28px;
+      }
+    }
+    .networks {
+      display: flex;
+      gap: 15px;
+    }
+  }
+}

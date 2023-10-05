@@ -1,0 +1,7 @@
+@import "./variables/global.scss";
+@import "./reset.scss";
+@import "../components/layout/layout.module.scss";
+
+body {
+  font-family: var(--fonts);
+}
